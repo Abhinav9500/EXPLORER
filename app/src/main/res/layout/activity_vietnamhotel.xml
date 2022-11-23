@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".VietnamhotelActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:autoStart="true"
+            android:background="@drawable/view_top_border"
+            android:flipInterval="3000"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/view_top_border"
+                android:scaleType="fitXY"
+                android:src="@drawable/vietnamhotel1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/view_top_border"
+                android:scaleType="fitXY"
+                android:src="@drawable/vietnamhotel2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/view_top_border"
+                android:scaleType="fitXY"
+                android:src="@drawable/vietnamhotel3" />
+
+
+
+        </ViewFlipper>
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="260dp"
+            android:fontFamily="@font/armata"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Muong Ha Nam Hotel"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="295dp"
+            app:srcCompat="@drawable/locationiconoutlineyellow" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="295dp"
+            android:fontFamily="@font/armata"
+            android:gravity="left"
+            android:text="Quảng Ninh , Vietnam"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="260dp"
+            android:backgroundTint="@color/black" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="260dp"
+            android:src="@drawable/stariconyellow" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="260dp"
+            android:fontFamily="@font/armata"
+            android:gravity="center"
+            android:text="4.3"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/view_top_border" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/corner_textview"
+            android:backgroundTint="@color/cyancolor"
+            android:text="DETAILS"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/armata"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="420dp"
+            android:fontFamily="@font/armata"
+            android:gravity="center"
+            android:text="FACILITIES"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="450dp"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                tools:ignore="SpeakableTextPresentCheck,UselessParent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:backgroundTint="@color/black"
+                        android:src="@drawable/breakfast"
+                        app:shapeAppearance="@style/cicularimageview"
+                        tools:ignore="ContentDescription" />
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:backgroundTint="@color/black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/desk"
+                        app:shapeAppearance="@style/cicularimageview"
+                        tools:ignore="ContentDescription" />
+
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:backgroundTint="@color/black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/swimmingpool"
+                        app:shapeAppearance="@style/cicularimageview"
+                        tools:ignore="ContentDescription" />
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/tv"
+                        app:shapeAppearance="@style/cicularimageview"
+                        tools:ignore="ContentDescription" />
+
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/wifi"
+                        app:shapeAppearance="@style/cicularimageview"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="530dp"
+            android:fontFamily="@font/armata"
+            android:text="LOCATION"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="560dp"
+            android:background="@drawable/vietnamhotellocation" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="800dp"
+            android:background="@drawable/view_background_corner"
+            android:backgroundTint="@color/offgreycolor3" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="820dp"
+            android:fontFamily="@font/armata"
+            android:gravity="center"
+            android:text="$60"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="840dp"
+            android:fontFamily="@font/armata"
+            android:gravity="left"
+            android:text=" /Night"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="820dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/view_background_corner"
+            android:backgroundTint="@color/cyancolor" />
+
+        <TextView
+            android:id="@+id/continuebookvietnam"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="820dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/view_background_corner"
+            android:fontFamily="@font/armata"
+            android:gravity="center"
+            android:text="Book Now"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</ScrollView>

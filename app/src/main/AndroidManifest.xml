@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.explorer">
+    <!-- these are the permission which application takes -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:ignore="CoarseFineLocation" />
+    <uses-permission android:name="androd.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logoforapplication"
+        android:label="EXPLORER"
+        android:roundIcon="@drawable/white_background_for_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EXPLORER"
+        tools:targetApi="31">
+        <activity
+            android:name=".PrivacypolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VietnamhotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExploreVietnamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".USAhotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExploreUSAActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThailandhotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExploreThailandActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JapanhotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExploreJapanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ItalyhotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExploreItalyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IndiahotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExploreIndiaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FrancehotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExploreFranceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentconfirmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChinahotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExploreChinaActivity"
+            android:exported="false" /> <!-- api key below here -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".LocationpageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DynamiclinkgeneratorActivity"
+            android:exported="false"
+            tools:ignore="AppLinkUrlError">
+
+            <!-- for dynamic link generator -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="explorertraveladvisor.page.link"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScreenonboardingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DevelopersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShareapkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomepageActivity"
+            android:exported="false">
+
+            <!--
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+
+        </activity>
+        <activity
+            android:name=".OpencameraforprofileActivity"
+            android:exported="false">
+
+            <!--
+                       <intent-filter>
+                           <action android:name="android.intent.action.MAIN" />
+
+                           <category android:name="android.intent.category.LAUNCHER" />
+                       </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".PushNotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashscreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditprofilepageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FingerprintlockActivity"
+            android:exported="false" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserprofilepageActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <service
+            android:name=".NotificationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

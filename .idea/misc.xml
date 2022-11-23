@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ARUSHI/AndroidStudioProjects/EXPLORER/app/src/main/res/drawable/bd_round.xml" value="0.1" />
+        <entry key="..\:/Users/ARUSHI/AndroidStudioProjects/EXPLORER/app/src/main/res/drawable/bg_round.xml" value="0.1" />
+        <entry key="..\:/Users/ARUSHI/AndroidStudioProjects/EXPLORER/app/src/main/res/layout/activity_locationpage.xml" value="0.2045045045045045" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/drawable/accountinfo.xml" value="0.1245" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/drawable/background.xml" value="0.16" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/drawable/emailicon.xml" value="0.1275" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/drawable/fingerprinticon.xml" value="0.112" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/drawable/ic_group_2962.xml" value="0.23" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/drawable/ic_splashscreen.xml" value="0.1195" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/drawable/initialpagebg.xml" value="0.23" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/drawable/mobileicon.xml" value="0.23" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/drawable/spalashscreen.xml" value="0.2465" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/drawable/splashscreen.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/layout/activity_editprofilepage.xml" value="0.43908851884312006" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/layout/activity_fingerprintauthentication.xml" value="0.18" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/layout/activity_fingerprintlock.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/layout/activity_hello.xml" value="0.21419410004275333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/layout/activity_initialpage.xml" value="0.21419410004275333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/layout/activity_main2.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/layout/activity_splashscreen.xml" value="0.33" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/layout/activity_startingpage.xml" value="0.22567567567567567" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/EXPLORER/app/src/main/res/layout/activity_userprofilepage.xml" value="0.38627602158828067" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable-v24/round_share_dialog.xml" value="0.2625" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable-v24/share_dialog_background.xml" value="0.1975" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/addicon.xml" value="0.136" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/back_select.xml" value="0.196" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/back_tab.xml" value="0.196" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/back_tabs.xml" value="0.2775" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/background.xml" value="0.1375" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/background_for_hotel.xml" value="0.2415" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/background_home_page.xml" value="0.1725" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/background_rating_explorer.xml" value="0.2415" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/background_star_rating.xml" value="0.2005" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/backgrounddialog.xml" value="0.2005" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/buttonstyle.xml" value="0.2625" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/cancelicon.xml" value="0.1975" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/corner_textview.xml" value="0.1975" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/emailicon.xml" value="0.263" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/enevelopicon.xml" value="0.1725" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/feedbackicon.xml" value="0.1725" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/homeiconoutline.xml" value="0.2625" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/linkicon.xml" value="0.1975" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/locationiconoutline.xml" value="0.2005" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/locationiconoutlineblack.xml" value="0.2775" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/locationiconoutlineyellow.xml" value="0.2775" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/navigationicon.xml" value="0.2625" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/notificationicon.xml" value="0.2625" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/round_back_blue_10.xml" value="0.2605" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/shareicon.xml" value="0.1975" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/view_background_corner.xml" value="0.2775" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/view_top_border.xml" value="0.2775" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/drawable/white_background_for_logo.xml" value="0.229" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_chinahotel.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_developers.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_dynamiclink.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_dynamiclinkgenerator.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_editprofilepage.xml" value="0.28271604938271605" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_explore_china.xml" value="0.1" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_explore_france.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_explore_india.xml" value="0.1" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_explore_italy.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_explore_japan.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_explore_thailand.xml" value="0.22387387387387386" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_explore_usaactivity.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_explore_vietnam.xml" value="0.22387387387387386" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_feedbackpage.xml" value="0.2" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_fingerprintlock.xml" value="0.23194444444444445" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_francehotel.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_homepage.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_indiahotel.xml" value="0.22" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_italyhotel.xml" value="0.22387387387387386" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_japanhotel.xml" value="0.22387387387387386" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_opencameraforprofile.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_paymentconfirm.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_privacypolicy.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_rating.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_screenonboarding.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_settings.xml" value="0.22402736212056434" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_settingspage.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_signup.xml" value="0.23148148148148148" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_splashscreen.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_temp.xml" value="0.22" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_thailandhotel.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_usahotel.xml" value="0.22387387387387386" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_userprofilepage.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/activity_vietnamhotel.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/app_row.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/cusom_dialog.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/custom_imageslider.xml" value="0.23243243243243245" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/custom_tablayout.xml" value="0.2231722958529286" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/dynamiclink_dialog_layout.xml" value="0.35942327497425336" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_china.xml" value="0.2" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_explorechinafood.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_explorechinahotel.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_explorefrancehotel.xml" value="0.22387387387387386" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_exploreindiahotel.xml" value="0.22387387387387386" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_exploreitalyhotel.xml" value="0.22387387387387386" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_explorejananhotel.xml" value="0.22387387387387386" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_explorejapanhotel.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_explorethailandhotel.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_exploreusahotel.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_explorevietnamhotel.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_france.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_india.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_italy.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_japan.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_setting.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_settings.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_thailand.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_usa.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/fragment_vietnam.xml" value="0.18" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/item_container_location.xml" value="0.23243243243243245" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/navigationheader.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/rating_dialog_layout.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/share_dialog_layout.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/slider_layout.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/layout/snackbar_layout.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/menu/navigationdrawer.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/xml/settingpreferences.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/xml/settingspreferences.xml" value="0.23603603603603604" />
+        <entry key="..\:/Users/hp/Androidstudioprojectfiles/EXPLORER/app/src/main/res/xml/settingsxml.xml" value="0.23603603603603604" />
+        <entry key="..\:/android studio project backup/Till 12 july/EXPLORER/app/src/main/res/layout/activity_editprofilepage.xml" value="0.23194444444444445" />
+        <entry key="..\:/android studio project backup/Till 7 july/EXPLORER/app/src/main/res/drawable/cameraicon.xml" value="0.253" />
+        <entry key="..\:/android studio project backup/Till 7 july/EXPLORER/app/src/main/res/layout/activity_editprofilepage.xml" value="0.23194444444444445" />
+        <entry key="..\:/android studio project backup/Till 7 july/EXPLORER/app/src/main/res/layout/activity_opencameraforprofile.xml" value="0.21944444444444444" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/addressicon.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/background.xml" value="0.2255" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/background_star_rating.xml" value="0.2035" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/backgroundblack.xml" value="0.2255" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/backgrounddialog.xml" value="0.2775" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/bg_window.xml" value="0.2035" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/bottomnavigationbardesign.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/bottomnavigationlook.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/corner_textview.xml" value="0.14" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/emailicon.xml" value="0.2255" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/faceicon.xml" value="0.1595" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/homeicon.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/homeiconoutline.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/ic_stat_notification.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/iiiiii.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/locationicon.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/locationiconoutline.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/mobilenoicon.xml" value="0.1595" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/notificationicon.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/passwordicon.xml" value="0.267" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/personiconoutline.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/searchicon.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/searchiconoutline.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/settings.xml" value="0.1595" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/usericon.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/drawable/usericonwhite.xml" value="0.2365" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_aboutdevelopers.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_aboutsection.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_developers.xml" value="0.22" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_dialogprompt.xml" value="0.22" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_dynamiclink.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_editprofilepage.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_hint.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_homepage.xml" value="0.33" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_main.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_opencameraforprofile.xml" value="0.25" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_rating.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_screenonboarding.xml" value="0.33" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_shareapk.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_temp.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/activity_userprofilepage.xml" value="0.25" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/app_row.xml" value="0.24166666666666667" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/cusom_dialog.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/cusom_imageslider.xml" value="0.23513513513513515" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/custom_imageslider.xml" value="0.14948453608247422" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/fragment_first.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/fragment_home.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/fragment_main.xml" value="0.1" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/fragment_message.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/fragment_second.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/fragment_settings.xml" value="0.2300925925925926" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/fragment_third.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/item_container_location.xml" value="0.3228589032655576" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/layout_custom_dialog.xml" value="0.23603603603603604" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/navigationheader.xml" value="0.22" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/slider_layout.xml" value="0.22" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/layout/toast_layout.xml" value="0.2" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/menu/bottomnavigationbar.xml" value="0.23194444444444445" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/menu/navigationdrawer.xml" value="0.5" />
+        <entry key="..\:/android studio project backup/temporary project editable files/EXPLORER/app/src/main/res/xml/provider_paths.xml" value="0.24259259259259258" />
+        <entry key="..\:/android studio project backup/till 19 july/EXPLORER/app/src/main/res/layout/activity_homepage.xml" value="0.23603603603603604" />
+        <entry key="..\:/android studio project backup/till 19 july/EXPLORER/app/src/main/res/layout/fragment_china.xml" value="0.23603603603603604" />
+        <entry key="..\:/android studio project backup/till 19 july/EXPLORER/app/src/main/res/layout/progressbar.xml" value="0.25" />
+        <entry key="..\:/android studio project backup/till 2 augast/EXPLORER/app/src/main/res/layout/activity_feedbackpage.xml" value="0.23603603603603604" />
+        <entry key="..\:/android studio project backup/till 2 augast/EXPLORER/app/src/main/res/layout/fragment_china.xml" value="0.23603603603603604" />
+        <entry key="..\:/android studio project backup/till 2 augast/EXPLORER/app/src/main/res/layout/fragment_france.xml" value="0.23603603603603604" />
+        <entry key="..\:/android studio project backup/till 2 augast/EXPLORER/app/src/main/res/layout/fragment_india.xml" value="0.23603603603603604" />
+        <entry key="..\:/android studio project backup/till 2 augast/EXPLORER/app/src/main/res/layout/fragment_italy.xml" value="0.23603603603603604" />
+        <entry key="..\:/android studio project backup/till 2 augast/EXPLORER/app/src/main/res/layout/fragment_japan.xml" value="0.23603603603603604" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

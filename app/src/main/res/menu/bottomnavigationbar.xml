@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:color="@color/cyancolor"
+        android:icon="@drawable/homeiconoutline"
+        android:state_checked="true"
+        android:title="HOME" />
+    <item
+        android:id="@+id/search"
+        android:color="@color/cyancolor"
+        android:icon="@drawable/searchiconoutline"
+        android:state_checked="true"
+        android:title="SEARCH" />
+    <item
+        android:id="@+id/location"
+        android:color="@color/cyancolor"
+        android:icon="@drawable/locationiconoutline"
+        android:state_checked="true"
+        android:title="LOCATION" />
+    <item
+        android:id="@+id/userprofile"
+        android:color="@color/cyancolor"
+        android:icon="@drawable/personiconoutline"
+        android:state_checked="true"
+        android:title="PROFILE" />
+
+
+</menu>

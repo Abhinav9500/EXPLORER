@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditprofilepageActivity"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <!--
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationbar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/bottomnavigationlook"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@color/cyancolor"
+        app:itemTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:menu="@menu/bottomnavigationbar">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+    -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:foregroundGravity="center"
+                android:padding="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/usericon"
+                tools:ignore="ImageContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView23"
+                app:layout_constraintEnd_toEndOf="@+id/textView23"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView23"
+                app:layout_constraintTop_toTopOf="@+id/textView23"
+                app:srcCompat="@drawable/usericon" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:text="         USERNAME"
+                android:textColor="#131313"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName8"
+                android:layout_width="296dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint='"@username"'
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/textView23"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView19"
+                app:layout_constraintTop_toBottomOf="@+id/textView23"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="46dp"
+                android:layout_marginEnd="46dp"
+                android:text="         EMAIL"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView24"
+                app:layout_constraintEnd_toEndOf="@+id/textView24"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView24"
+                app:layout_constraintTop_toTopOf="@+id/textView24"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/emailicon" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName9"
+                android:layout_width="296dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="xyz@gmail.com"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/textView24"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textView24"
+                app:layout_constraintTop_toBottomOf="@+id/textView24"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:text="         MOBILE"
+                android:textColor="#070707"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView25"
+                app:layout_constraintEnd_toEndOf="@+id/textView25"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView25"
+                app:layout_constraintTop_toTopOf="@+id/textView25"
+                app:srcCompat="@drawable/mobilenoicon" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName10"
+                android:layout_width="296dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="1234567890"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/textView25"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textView25"
+                app:layout_constraintTop_toBottomOf="@+id/textView25"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:text="         ADDRESS"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView26"
+                app:layout_constraintEnd_toEndOf="@+id/textView26"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView26"
+                app:layout_constraintTop_toTopOf="@+id/textView26"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/addressicon" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName11"
+                android:layout_width="296dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="address"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/textView26"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textView26"
+                app:layout_constraintTop_toBottomOf="@+id/textView26"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#03DAC6"
+                android:text="SAVE"
+                app:cornerRadius="25mm"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView18"
+                app:layout_constraintEnd_toEndOf="@+id/imageView18"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView18"
+                app:layout_constraintTop_toTopOf="@+id/imageView18"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/cameraicon" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

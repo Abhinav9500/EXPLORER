@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:text="Create Account"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.274"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:text="            User Name"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toTopOf="@+id/textView4"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/usericon" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint='"@vaibhav"'
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:ignore="SpeakableTextPresentCheck,TextContrastCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:text="            Email"
+            android:textColor="#090909"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView5"
+            app:layout_constraintEnd_toEndOf="@+id/textView5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView5"
+            app:layout_constraintTop_toTopOf="@+id/textView5"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/emailicon" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="&quot;xyz@gmail.com&quot;"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/textView5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:text="            Password"
+            android:textColor="#0C0C0C"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView6"
+            app:layout_constraintEnd_toEndOf="@+id/textView6"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView6"
+            app:layout_constraintTop_toTopOf="@+id/textView6"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/passwordicon" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Must be 8 characters long"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/textView6"
+            app:layout_constraintStart_toStartOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:text="            Phone Number"
+            android:textColor="#131313"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView9"
+            app:layout_constraintEnd_toEndOf="@+id/textView9"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/mobilenoicon" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Must be longer than 10"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/textView9"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            tools:ignore="SpeakableTextPresentCheck,TextContrastCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:text="            Address"
+            android:textColor="#131313"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/textView9"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            tools:ignore="SpeakableTextPresentCheck,TextContrastCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#03DAC5"
+            android:text="SIGNUP"
+            app:layout_constraintBottom_toTopOf="@+id/button6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6"
+            app:layout_constraintVertical_bias="0.177"
+            tools:ignore="TextContrastCheck"
+            app:shapeAppearance="@style/circularsignupactivitysignupbutton6"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="340dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="#03DAC5"
+            android:text="ALREADY HAVE AN ACCOUNT ? LOGIN"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.521"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progressBar2"
+            tools:ignore="TextContrastCheck"
+            app:shapeAppearance="@style/circularsignupactivityalreadybutton7"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/button6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView11"
+            app:layout_constraintEnd_toEndOf="@+id/textView11"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/addressicon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,108 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--maps api key -->
+    <string name="map_key" translatable="false">AIzaSyBHfoXDAgetFpyD6B9w1cT2KjAYNWLCeoc</string>
+
+
+    <style name="circularUserprofilepageImageView2" tools:ignore="DuplicateDefinition">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="circularfingerprintfaceimageView" tools:ignore="DuplicateDefinition">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="circularchangeprofilebutton1" tools:ignore="DuplicateDefinition">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="circularuserprofileresetpassbutton2" tools:ignore="DuplicateDefinition">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="circularuserprofilelogoutbutton3" tools:ignore="DuplicateDefinition">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="circularloginactivityloginbutton4" tools:ignore="DuplicateDefinition">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="circularloginactivitydontbutton5" tools:ignore="DuplicateDefinition">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="circularsignupactivitysignupbutton6" tools:ignore="DuplicateDefinition">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="circularsignupactivityalreadybutton7" tools:ignore="DuplicateDefinition">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="circularverifyemailbutton8" tools:ignore="DuplicateDefinition">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="circulareditprofilepageImageView3" tools:ignore="DuplicateDefination">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="spalshscreencircularimageview">
+        <item name="cornerSize">25mm</item>
+    </style>
+
+    <style name="circularimageviewinnavigationdrawer">
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+    <style name="circularimageviewforhomepage">
+        <item name="cornerSize">25dp</item>
+    </style>
+
+    <style name="circularimageview15dp">
+        <item name="cornerSize">15dp</item>
+    </style>
+
+    <style name="circularcardforhotelsandfood">
+        <item name="cornerSize">30dp</item>
+    </style>
+
+    <style name="cicularimageview">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <string name="app_name">Share APK</string>
+
+    <string name="app_size_b">%1$.2f B</string>
+    <string name="app_size_kib">%1$.2f KiB</string>
+    <string name="app_size_mib">%1$.2f MiB</string>
+    <string name="app_size_gib">%1$.2f GiB</string>
+
+
+    <!-- for screen onboard colors -->
+
+
+    //Headings
+    <string name="heading_one">"Quick and Fast</string>
+    <string name="heading_two">Strong Biometrics</string>
+
+
+    //Description
+    <string name="desc_one">Grow your Business By Accepting Card Payments with The New Card Reader</string>
+    <string name="desc_two">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- below code is for dark mode -->
+
+
+    <string name="light_mode_auto" />
+    <string name="light_mode_on" />
+    <string name="light_mode_off" />
+    <string name="pf_dark_auto" />
+    <string name="pf_light_on" />
+    <string name="pf_light_off" />
+
+
+</resources>

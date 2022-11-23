@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExploreindiahotelFragment">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/view_background_corner"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.696"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/circularcardforhotelsandfood"
+        app:srcCompat="@drawable/indiahotel1" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView33"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/view_background_corner"
+        android:scaleType="centerCrop"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/circularcardforhotelsandfood"
+        app:srcCompat="@drawable/indiahotel1" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:background="#99000000"
+        app:layout_constraintBottom_toBottomOf="@+id/shapeableImageView"
+        app:layout_constraintEnd_toEndOf="@+id/shapeableImageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/shapeableImageView"
+        app:layout_constraintTop_toTopOf="@+id/shapeableImageView"
+        app:layout_constraintVertical_bias="0.0"
+        app:shapeAppearance="@style/circularcardforhotelsandfood" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginBottom="94dp"
+        app:layout_constraintBottom_toBottomOf="@+id/shapeableImageView"
+        app:layout_constraintStart_toStartOf="@+id/shapeableImageView"
+        app:layout_constraintTop_toTopOf="@+id/shapeableImageView"
+        app:srcCompat="@drawable/addicon" />
+
+    <TextView
+        android:id="@+id/imageView35"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="56dp"
+        android:fontFamily="@font/armata"
+        android:gravity="center"
+        android:text="10"
+
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+        app:layout_constraintEnd_toEndOf="@+id/shapeableImageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView34"
+        app:layout_constraintTop_toTopOf="@+id/shapeableImageView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/armata"
+        android:gravity="center"
+        android:text="DETAILS"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView33"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/armata"
+        android:gravity="start"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/view_background_corner"
+        android:backgroundTint="@color/cyancolor"
+        android:fontFamily="@font/armata"
+        android:text="Continue"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

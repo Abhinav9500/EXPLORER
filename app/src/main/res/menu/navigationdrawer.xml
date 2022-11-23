@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Modes">
+
+        <menu>
+
+            <group
+
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/homeiconoutline"
+                    android:iconTint="@color/greycolorfornavigationbar"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/nav_search"
+                    android:icon="@drawable/searchiconoutline"
+                    android:iconTint="@color/greycolorfornavigationbar"
+                    android:title="Search" />
+                <item
+                    android:id="@+id/nav_location"
+                    android:icon="@drawable/locationiconoutline"
+                    android:iconTint="@color/greycolorfornavigationbar"
+                    android:title="Location" />
+                <item
+                    android:id="@+id/nav_userprofile"
+                    android:icon="@drawable/usericon"
+                    android:iconTint="@color/greycolorfornavigationbar"
+                    android:title="Profile" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Application">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/settingicon"
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/starrate"
+                    android:title="Rate Us.." />
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/shareicon"
+                    android:title="Invite friends" />
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:icon="@drawable/feedbackicon"
+                    android:title="Feedback" />
+                <item
+                    android:id="@+id/nav_developer"
+                    android:icon="@drawable/developericon"
+                    android:title="About" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

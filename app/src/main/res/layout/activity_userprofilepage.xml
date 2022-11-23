@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UserprofilepageActivity"
+    tools:ignore="SpeakableTextPresentCheck">
+
+   <!-- <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationbar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/bottomnavigationlook"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@color/cyancolor"
+        app:itemTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:menu="@menu/bottomnavigationbar">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+    -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="430dp"
+                android:layout_height="254dp"
+                android:background="#17E3CF"
+                app:layout_constraintBottom_toTopOf="@+id/imageView11"
+                app:layout_constraintEnd_toEndOf="@+id/imageView11"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView11"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="430dp"
+                android:layout_height="778dp"
+                android:layout_marginBottom="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageView12"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="16dp"
+                android:background="#FAF9F9"
+                app:layout_constraintEnd_toEndOf="@+id/textView3"
+                app:layout_constraintStart_toStartOf="@+id/textView3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearance="@style/circularUserprofilepageImageView2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/armata"
+                android:gravity="center"
+                android:textAlignment="gravity"
+                android:textColor="#0B0B0B"
+                android:textColorHint="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/imageView8"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/armata"
+                android:gravity="center"
+                android:text=""
+                android:textAlignment="gravity"
+                android:textColor="#050505"
+                android:textColorHint="#090909"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+                app:layout_constraintEnd_toEndOf="@+id/textView3"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="216dp"
+                android:layout_height="39dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="ACCOUNT INFO"
+                android:textAlignment="center"
+                android:textColor="#151515"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="         USERNAME"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView14"
+                app:layout_constraintEnd_toEndOf="@+id/textView14"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView14"
+                app:layout_constraintTop_toTopOf="@+id/textView14"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/usericon" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:textColor="#050505"
+                app:layout_constraintEnd_toEndOf="@+id/textView14"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textView14"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:text="         MOBILE"
+                android:textColor="#020202"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView16"
+                app:layout_constraintEnd_toEndOf="@+id/textView16"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView16"
+                app:layout_constraintTop_toBottomOf="@+id/textView15"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/mobilenoicon" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="@+id/textView16"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textView16"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:text="         EMAIL"
+                android:textColor="#131313"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView18"
+                app:layout_constraintEnd_toEndOf="@+id/textView18"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView18"
+                app:layout_constraintTop_toBottomOf="@+id/textView17"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/emailicon" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="@+id/textView18"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textView18"
+                app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:text="         ADDRESS"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView20"
+                app:layout_constraintEnd_toEndOf="@+id/textView20"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView20"
+                app:layout_constraintTop_toBottomOf="@+id/textView19"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/addressicon" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="@+id/textView20"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textView20"
+                app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#03DAC6"
+                android:onClick="signout"
+                android:text="LOGOUT"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+                app:layout_constraintEnd_toEndOf="@+id/button8"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/button8"
+                app:layout_constraintTop_toBottomOf="@+id/button8"
+                app:layout_constraintVertical_bias="0.0"
+                app:shapeAppearance="@style/circularuserprofilelogoutbutton3"
+                tools:ignore="OnClick,DuplicateClickableBoundsCheck" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#03DAC6"
+                android:text="RESET PASSWORD"
+                app:layout_constraintEnd_toEndOf="@+id/button9"
+                app:layout_constraintStart_toStartOf="@+id/button9"
+                app:layout_constraintTop_toBottomOf="@+id/button9"
+                app:shapeAppearance="@style/circularuserprofileresetpassbutton2" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#03DAC6"
+                android:text="EDIT PROFILE"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView21"
+                app:shapeAppearance="@style/circularchangeprofilebutton1" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</RelativeLayout>
+
