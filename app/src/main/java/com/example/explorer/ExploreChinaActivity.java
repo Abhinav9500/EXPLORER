@@ -24,7 +24,6 @@ public class ExploreChinaActivity extends AppCompatActivity {
         ViewPager viewPager=findViewById(R.id.viewpagerchina);
         viewpagerchina = new ViewPagerChina(getSupportFragmentManager());
         viewpagerchina.add(new ExplorechinahotelFragment(), "Hotels");
-        viewpagerchina.add(new ExplorechinafoodFragment(),"Food");
         viewPager.setAdapter(viewpagerchina);
         tabLayout = findViewById(R.id.tab_layout);
         tabLayout.setupWithViewPager(viewPager);
