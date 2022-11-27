@@ -27,6 +27,7 @@
         android:roundIcon="@drawable/white_background_for_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.EXPLORER"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
             android:name=".PrivacypolicyActivity"
